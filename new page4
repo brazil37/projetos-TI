@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MV - Front-End</title>
+    <link rel="shortcut icon" href="imagem/flag.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/four.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <a class="banner-twitter">SOM E VÍDEO</a>
+            <img src="imagem/auto.png">
+            <audio controls="controls" autoplay="autoplay" muted="muted" loop="loop" src="midia/dd.mp3"></audio>                
+    <main> 
+       <nav>
+            <ul>
+                <li><a href="one.html">Home</a></li>
+                <li><a href="three.html">Tecnologia</a></li>
+                <li><a href="four.html">Cinema</a></li>
+                <li><a href="five.html">Séries de TV</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+                <video class="midia3" controls poster="imagem/videu.jpg">
+                    <source src="midia/videu.mp4" type="video/mp4">
+                    <source src="midia/videu.webm" type="video/webm">
+                    <source src="midia/videu.ogv" type="video/ogg"> 
+                        <object>
+                            <embed src="videu.mp4" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="always"> 
+                        </object>
+                </video> 
+            <h2>Alta definição, 4K, ultra HD</h2> 
+            <br><p>"Aprecie a qualidade"</p>
+        </div>
+                <a href="one.html" class="button">HOME</a>
+                 
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/brazil37/brazil37" class="github" data-tooltip="Veja meus projetos opensource">Github</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/michelvicentim" class="twitter" data-tooltip="Follow me on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michel-vicentim-baa8bb57/" class="linkedin" data-tooltip="Veja meu Curriculum Vitae">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/michel.vicentim" class="facebook3" data-tooltip="add me on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="email" data-tooltip="michelvicentim21@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a href="#" class="whatsapp3" data-tooltip="(19) 99106-6039">Whatsapp</a>
+            </li>
+        </ul>       
+
+    </main>
+
+</body>
