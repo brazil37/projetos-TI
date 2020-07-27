@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MV - Front-End</title>
+    <link rel="shortcut icon" href="imagem/flag.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/three.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <h1 class="titulo-principal">CINEMA</h1>   
+              
+    <main>
+        <h3>Filmes</h3>  
+        <div class="container">
+            <h2>Tome seu assento, a sua sessão já vai começar!</h2>
+                <p>Dificilmente um amante do cinema deixara de ver ser filme preferido, este sentimento esta muitas vezes atrelado a vários fatores e não somente a narrativa do filme.</p> 
+                <p>Mas também ao elenco, e todo o teor da adaptação para as telonas.</p>
+                <p>Quando a trama é bem executada, apenas basta nos sentar confortavelmente e assistir o filme tão aguardado.</p>
+
+           <ul class="folder">
+                <li>
+                    <a href="https://screenrant.com/avengers-endgame-mcu-quiz/">
+                    <img src="imagem/endgame.jpg" alt="marvel" title="AGORA É O FIM">             
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.polygon.com/2019/5/6/18531351/avengers-endgame-marvel-comics-crossovers">
+                    <img src="imagem/cap.jpg" alt="marvel comics" title="É AGORA OU NUNCA">     
+                    </a>
+                </li> 
+                <li>
+                    <a href="https://bgr.com/2019/03/30/avengers-endgame-spoilers-thanos-battle-outriders/">
+                    <img src="imagem/iron.jpg" alt="the avengers" title="FAREMOS NOSSO MELHOR">    
+                    </a>
+                </li>
+           </ul>
+               
+           <ol class="sinopse">
+                <li>
+                <blockquote class="citacao-cinema amo-cinema" tabindex="1">
+                    <a href="http://www.adorocinema.com/filmes/filme-232669/">
+                    <h2>The Avengers: Endgame</h2>
+                    <p><strong>Final épico para uma saga que veio batendo recordes de bilheteria</strong></p> 
+                    </a>   
+                <cite>José Andrade, Amo-Cinema Magazine</cite>
+            </blockquote>     
+                </li>
+
+                <li>
+                <blockquote class="citacao-cinema tudo-movies" tabindex="1">
+                    <a href="https://www.omelete.com.br/marvel-cinema/vingadores-ultimato-ganha-sinopse-oficial">
+                    <h2>The Avengers: Endgame(3)</h2>
+                    <p><strong>Se não viu o filme, corra, pois todos os seus amigos já sabem o final</strong></p> 
+                    </a>  
+                <cite>Julia Martinelli, Tudo movies</cite>    
+            </blockquote>     
+                </li>
+
+                <li>
+                <blockquote class="citacao-cinema theater.com" tabindex="1">
+                    <a href="https://entretenimento.uol.com.br/noticias/redacao/2019/03/20/grande-conclusao-marvel-divulga-sinopse-oficial-de-vingadores-ultimato.htm">
+                    <h2>The Avengers: Endgame(2)</h2>
+                    <p><strong>Uma conclusão apocalípitica para uma história de superação</strong></p> 
+                    </a> 
+                <cite>Pedro Smith, Theater.com</cite>  
+            </blockquote>                   
+                </li>
+           </ol>      
+
+            <h2 class="sub-texto">Comunidade Marvel</h2>
+                <p>Não basta ser fã de filmes de ação, existem outros requisitos a ser preenchidos, tais como:
+                <br>Gostar de <em><a href="four.html">"som e áudio de qualidade"</a></em>
+                <br>Gostar de <em><a href="five.html">"séries"</a></em></p>
+            <h2 class="sub-textos">The Avengers</h2>
+
+                <table class="habilidades">
+                    <thead>
+                        <tr>
+                            <th>Personagem</th>
+                            <th>Nível</th>
+                            <th>Poder</th>
+                            <th>Inteligência</th>
+                            <th>Frequência</th>                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Capitan America</th>
+                            <td>8</td>
+                            <td>Resistência</td>
+                            <td>8</td>
+                            <td>Alta</td>
+                        </tr>
+                        <tr>
+                            <th>Thor</th>
+                            <td>9</td>
+                            <td>Magia</td>
+                            <td>8</td>
+                            <td>Média</td>
+                        </tr>
+                        <tr>
+                            <th>Hulk</th>
+                            <td>8</td>
+                            <td>Força</td>
+                            <td>7</td>
+                            <td>Média</td>
+                        </tr>
+                        <tr>
+                            <th>Iron Man</th>
+                            <td>8</td>
+                            <td>Tecnologia</td>
+                            <td>9</td>
+                            <td>Alta</td>
+                        </tr>
+                        <tr>
+                            <th>Black Widow</th>
+                            <td>8</td>
+                            <td>Persuasão</td>
+                            <td>9</td>
+                            <td>Média</td>
+                        </tr>
+                        <tr>
+                            <th>Spider Man</th>
+                            <td colspan="4" rowspan="2"><strong>Existe um homem Morcego, mas não pertence a esta franquia :)</strong></td>
+                        </tr>
+                        <tr>
+                            <th>Ant-Man</th>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+       <nav>
+            <ul>
+                <li><a href="one.html">Home</a></li>
+                <li><a href="three.html">Tecnologia</a></li>
+                <li><a href="four.html">Som e Vídeo</a></li>
+                <li><a href="five.html">Séries de TV</a></li>
+            </ul>
+        </nav>
+
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/brazil37/brazil37" class="github" data-tooltip="Veja meus projetos opensource">Github</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/michelvicentim" class="twitter" data-tooltip="Follow me on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michel-vicentim-baa8bb57/" class="linkedin" data-tooltip="Veja meu Curriculum Vitae">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://pt.wikipedia.org/wiki/Thanos" class="marvel" img="thanos" data-tooltip="I'm Inevitable">Manopla</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/michel.vicentim" class="facebook3" data-tooltip="add me on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="email" data-tooltip="michelvicentim21@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a href="#" class="whatsapp3" data-tooltip="(19) 99106-6039">Whatsapp</a>
+            </li>
+        </ul>
+
+            <a href="one.html" class="button">HOME</a>
+    </main>
+</body>
+
