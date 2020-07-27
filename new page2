@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MV - Front-End</title>
+    <link rel="shortcut icon" href="imagem/flag.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/two.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <h1 class="titulo-principal">TECNOLOGIA</h1>
+
+    <main> 
+        <h3>Inteligência Artificial</h3>
+        <div class="gallery">
+            <h2>O FUTURO JÁ COMEÇOU</h2>
+                <p>Em vários momentos podemos perceber que existe uma inteligência por trás de algo que nos facilita a vida, pode ser um computador, um eletro doméstico, uma lavadora, todos tem em comum uma inteligência programada.
+                <br>
+                <br>
+                Mas será que no futuro além de executar funções pré-programadas, não veremos também as máquinas escolhendo o que é melhor, sem uma decisão humana? 
+
+        <ul class="portfolio">
+            <li>
+            <a href="http://revista.algomais.com/colunistas/como-ia-pode-ajudar-uma-empresa">
+                <figure> 
+                    <img src="imagem/ia1.jpg" alt="artificial intelligence" title="FAZEMOS MELHOR">
+                    <figcaption class="desc">PODEMOS TE AJUDAR?</figcaption>
+                </figure>
+            </a>
+            </li>          
+
+            <li>
+            <a href="https://revistagalileu.globo.com/Tecnologia/noticia/2018/10/inteligencia-artificial-com-bom-senso-esta-sendo-desenvolvida-nos-eua.html">
+                <figure>
+                    <img src="imagem/ia2.jpg" alt="artificial intelligence" title="FAZEMOS MAIS RÁPIDO">
+                    <figcaption class="desc">JÁ ENCONTRAMOS A SOLUÇÃO</figcaption>
+                </figure>
+            </a>
+            </li> 
+
+            <li>
+            <a href="http://bmw.com">
+                <figure>
+                    <img src="imagem/ia3.jpg" alt="artificial intelligence" title="SOMOS MAIS EFICIENTES">
+                    <figcaption class="desc">ESTOU LENDO SUA SOLICITAÇÃO</figcaption>
+                </figure> 
+            </a>
+            </li> 
+ 
+            <li>
+            <a href="https://www.chapecoonline.com.br/inteligencia-artificial-chega-no-setor-juridico-e-moderniza-rotina-de-profissionais-do-direito/">                           
+                <figure>
+                    <img src="imagem/ia4.jpg" alt="artificial intelligence" title="SOMOS MAIS CAPAZES">
+                    <figcaption class="desc">SER OU NÃO SER?</figcaption>
+                </figure>
+            </a>
+            </li> 
+
+            <li>
+            <a href="https://bit2geek.com/2018/08/04/desafios-europeus-a-curto-prazo/">
+                <figure>
+                    <img src="imagem/ia5.jpg" alt="artificial intelligence" title="SOMOS INTUITIVOS">
+                    <figcaption class="desc">POSSO FAZER AINDA MELHOR</figcaption>
+                </figure>
+            </a>
+            </li> 
+
+            <li>
+            <a href="https://indicca.com.br/inteligencia-artificial/">
+                <figure>
+                    <img src="imagem/ia6.jpg" alt="artificial intelligence" title="SOMOS SEUS LIDERES AGORA">
+                    <figcaption class="desc">ESTOU NO COMANDO AGORA</figcaption>
+                </figure>
+            </a>
+            </li> 
+
+            <li>
+            <a href="https://startupi.com.br/2018/10/inteligencia-artificial-ganha-espaco-no-mercado-global/">
+                <figure>
+                    <img src="imagem/ia7.jpg" alt="artificial intelligence" title="SOMOS SEU ÔMEGA">
+                    <figcaption class="desc">SKYNET, <BR>A REBELIÃO DAS MÁQUINAS COMEÇOU!<br></figcaption>
+                </figure>
+            </a>
+            </li> 
+
+            <li>
+            <a href="https://www.udemy.com/artificial-intelligence-az/">
+                <figure>
+                    <img src="imagem/ia8.jpg" alt="artificial intelligence" class="robo" title="SOMOS ATUALIZAVEIS">
+                    <figcaption class="desc">HUMANOS SÃO LIMITADOS, <br>MÁQUINAS SÃO PROGRAMÁVEIS</figcaption>
+                </figure>
+
+            <li>
+            <a href="https://pixabay.com/illustrations/forward-robot-2083419/">
+                <figure>
+                    <img src="imagem/ia9.jpg" alt="artificial intelligence" class="robo" title="SOMOS A EVOLUÇÃO">
+                    <figcaption class="desc">DOWNLOAD EM PROGRESSO...</figcaption>
+                </figure>
+            </a>
+            </li> 
+            
+            </a>
+            </li> 
+        </ul>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="one.html">Home</a></li>
+                <li><a href="three.html">Cinema</a></li>
+                <li><a href="four.html">Som e Vídeo</a></li>
+                <li><a href="five.html">Séries de TV</a></li>
+            </ul>
+        </nav>
+
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/brazil37/brazil37" class="github2" data-tooltip="Veja meus projetos opensource">Github</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/michelvicentim" class="twitter2" data-tooltip="Follow me on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michel-vicentim-baa8bb57/" class="linkedin2" data-tooltip="Veja meu Curriculum Vitae">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/michel.vicentim" class="facebook" data-tooltip="add me on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="email2" data-tooltip="michelvicentim21@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a href="#" class="whatsapp" data-tooltip="(19) 99106-6039">Whatsapp</a>
+            </li>
+        </ul>
+
+            <a href="one.html" class="button">HOME</a>
+    </main>
+</body>
+
+                
