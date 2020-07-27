@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MV - Front-End</title>
+    <link rel="shortcut icon" href="imagem/flag.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/one.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul class="jornal">
+            <li class="jornal html5"><img src="imagem/html5.png "></li>
+            <li class="jornal css3"><img src="imagem/css3.png"></li>
+            <li class="jornal javascript"><img src="imagem/javascript.png"></li>
+            <li class="jornal frontend"><img src="imagem/frontend.png"></li>
+            <li class="jornal frontend michel-vicentim">Michel Vicentim</li>
+            <li class="jornal angular7"><img src="imagem/angular7.png"></li>
+            <li class="jornal bootstrap4"><img src="imagem/bootstrap4.png"></li>
+            <li class="jornal java"><img src="imagem/java.png"></li>
+            <li class="jornal cloud"><img src="imagem/cloud.png"></li>
+            <li class="jornal developer"><img src="imagem/developer.png"></li>
+            <li class="jornal ball"><img src="imagem/ball.png"></li>
+        </ul>
+    </header> 
+    <main>
+        <section class="texto">
+            <h2>TECNOLOGIA</h2>
+            <h3>Inteligência Artificial</h3>
+                    <a class="image" href="two.html"><img src="imagem/wallia.png" width="190" height="150"><strong>I.A.</strong></a>
+                    <p class="inicio-post"><strong>Rumo ao desconhecido</strong></p>
+                <p>Poderemos utilizar <u>Inteligência Artificial</u> a ponto de não cometermos mais erros?</p> 
+                <p>Gigantes da tecnologia como a <a href="https://www.ibm.com/us-en/?lnk=fcc"><abbr title="International Business Machines"><strong>IBM</strong></abbr></a>, investem bilhões por ano visando alcançar o futuro, a <a href="https://www.nasa.gov/"><abbr title="National Aeronautics and Space Administration"><strong>NASA</strong></abbr></a> por exemplo liderou a corrida espacial, mas a pergunta que fica é, se o amanhã ainda não existe, o que é o <em>futuro</em>?</p>
+                <p>O que de fato estamos tentando alcançar?</p>
+                    <a href="two.html" class="button">Saiba mais!</a>
+        </section>
+        <section class="texto2">
+            <h2>CINEMA</h2>
+            <h3>Filmes</h3>
+                    <a class="image2" href="three.html"><img src="imagem/wallcine.png" width="200" height="140"><strong>MOVIE</strong></a>
+                    <p class="inicio-post"><strong>Qualidade de som e imagem</strong></p>
+                <p>Recentemente tivemos a ascenção do universo <a href="https://www.marvel.com/comics?&options%5Boffset%5D=0&totalcount=12"><strong>Marvel</strong></a> no Cinema, podemos ainda ter mais filmes adaptados dos <strong>HQ's</strong> para as telonas, o sucesso foi tão grande, que os herois garantiram 5 das 10 maiores bilheterias do cinema de todos os tempos.</p>
+                <p>Enquanto a tecnologia avança para que possamos ter uma qualidade ainda superior na imagem e som, os efeitos especiais alavancam a <em>ficção científica</em> para o primeiro lugar na prefêrencia do público.</p>
+                    <a href="three.html" class="button">Saiba mais!</a>
+        </section>
+        <section class="texto3">
+            <h2>SOM E VÍDEO</h2>
+            <h3>Alta Resolução</h3>
+                    <a class="image3" href="four.html"><img src="imagem/wallsound.png" width="80" height="80"><strong>Ultra HD</strong></a>
+                    <p class="inicio-post"><strong>Imagens saindo da tela</strong></p>
+                <p>Há tempos que a ideia de ver uma imagem cada vez mais nítida empolga os amantes da fotografia.</p>
+                <p>Fatores como uma coloração mais real, movimentos mais próximos da realidade e a sensação de estar naquele local.</p>
+                <p>são alguns do fatores que nos leva a admirar uma bela imagem em <strong><a href="https://pt.shopify.com/burst">alta resolução</strong></a>, então vamos ver o que temos de mais belo a ser apreciado no mundo das imagens in <em>high definition</em>.</p>
+                    <a href="four.html" class="button">Saiba mais!</a>
+        </section>
+    </main> 
+    <aside class="conteudo-lateral">
+            <h2>SÉRIES DE TV</h2>
+            <h3>Sitcom</h3>
+                    <a class="image4" href="five.html"><img src="imagem/bbt.jpg" width="350" height="326"></a>
+                <p>Não é de hoje que seriados de <strong>TV</strong> vem chamando a atenção de milhões de telespectadores, a chamada <strong>SITCOM</strong> é um bom exemplo disso, são séries com vários capítulos e podem durar anos. A queridinha do momento é <a href="https://www.cbs.com/shows/big_bang_theory/"><em>"The Big Bang Theory"</em></a>, que há anos vem liderando o ranking de série de TV norte-americana.
+                    <br>
+                    <a href="five.html" class="button">Saiba mais!</a>
+                    <br>
+                É diversão garantida!</p>
+        <nav>
+            <ul>
+                <li><a href="two.html">Tecnologia</a></li>
+                <li><a href="three.html">Cinema</a></li>
+                <li><a href="four.html">Som e Vídeo</a></li>
+                <li><a href="five.html">Séries de TV</a></li>
+            </ul>
+        </nav>       
+    </aside>
+    <footer>
+        <h3>Gostou do Trabalho?</h3>
+        	<p>Entre em contato <a href="#">por e-mail</a> ou pelo telefone <a href="tel:+551932799035">(19) 99106-6039</a></p>
+            
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/brazil37/brazil37" class="github" data-tooltip="Veja meus projetos opensource">Github</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/michelvicentim" class="twitter" data-tooltip="Follow me on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michel-vicentim-baa8bb57/" class="linkedin" data-tooltip="Veja meu Curriculum Vitae">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/michel.vicentim" class="facebook3" data-tooltip="add me on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="email" data-tooltip="michelvicentim21@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a href="#" class="whatsapp3" data-tooltip="(19) 99106-6039">Whatsapp</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
