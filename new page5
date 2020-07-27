@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>MV - Front-End</title>
+    <link rel="shortcut icon" href="imagem/flag.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/five.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <h1>\o/</h1>
+
+    <main>   
+
+        <div class="container">
+                <span><h2 class="titulo-principal">SÉRIES DE TV</h2></span>
+        
+            <article class="post-blog">
+                <h2>The Big Bang Theory</h2>
+                    <img width="500" height="300" src="imagem/bbt2.jpg" alt="sitcom" title="Rir é a melhor escolha">           
+                    <time datetime="2019-06-11">11 de junho de 2019</time>
+                        <p>Este gênero de série de TV tem conquistado cada vez mais o público.
+                        <br>Boas histórias, humor inteligente, pouco apelativo ao politicamente correto, e assim segue o sucesso das SITCOM's.</p>
+                        <p>Todo dia uma boa opção.</p>
+                    <a class="leia-mais" href="https://www.cbs.com/shows/big_bang_theory/photos/">Leia mais</a>
+                    <footer class="rodape">Tags: <a href="#">sitcom</a>, <a href="#">comedia</a></footer>
+            </article>
+            
+            <article class="post-blog">
+                <h2>The Big Bang "Opening"</h2>
+                    <iframe width="727" height="409" src="https://www.youtube.com/embed/ItRtfwYtr_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <time datetime="2019-06-11">11 de junho de 2019</time>
+                        <p>É melhor preparar uma lanche, ocupar o melhor lugar no sofá, e aguardar, pois vai começar.
+                        <br>Ah, e uma dica para aqueles que costumam esquecer algo no meio da transmissão, não esqueça que você pode gravar para acompanhar tudo depois!</p>
+                        <p>Um ótimo programa para seu fim de tarde!</p>
+                    <a class="leia-mais" href="https://www.cbs.com/shows/big_bang_theory/news/">Leia mais</a>
+                    <footer class="rodape">Tags: <a href="#">seriados</a>, <a href="#">TV</a></footer>
+            </article>
+        </div>
+
+        <div class="formulario">
+            <form>
+                <fieldset>
+                    <legend>Formulário Nerd</legend>
+                        <label class="com-icone" for="nome">Nome</label>
+                            <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                        <label class="com-icone" for="email">E-mail</label>
+                    <input id="email" type="email" name="email" required placeholder="seu@email.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Assunto</legend>
+                        <label class="person">
+                            <input type="radio" name="assunto" value="Sheldon">
+                            Sheldon Cooper
+                        </label>
+                        <label class="person">
+                            <input type="radio" name="assunto" value="Leonard">
+                            Leonard Hofstadter
+                        </label>
+                        <label class="person">
+                            <input type="radio" name="assunto" value="Outro">
+                            Outro
+                        <input type="text" name="outro-assunto">
+                        </label>
+                </fieldset>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </div>
+        
+       <nav>
+            <ul>
+                <li><a href="one.html">Home</a></li>
+                <li><a href="three.html">Tecnologia</a></li>
+                <li><a href="four.html">Cinema</a></li>
+                <li><a href="five.html">Som e Vídeo</a></li>
+            </ul>
+        </nav>
+
+        <ul class="icones-redes-sociais">
+            <li>
+                <a href="https://github.com/brazil37/brazil37" class="github" data-tooltip="Veja meus projetos opensource">Github</a>
+            </li>
+            <li>
+                <a href="https://twitter.com/michelvicentim" class="twitter" data-tooltip="Follow me on Twitter">Twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/michel-vicentim-baa8bb57/" class="linkedin" data-tooltip="Veja meu Curriculum Vitae">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/michel.vicentim" class="facebook3" data-tooltip="add me on Facebook">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="email" data-tooltip="michelvicentim21@hotmail.com">E-mail</a>
+            </li>
+            <li>
+                <a href="#" class="whatsapp3" data-tooltip="(19) 99106-6039">Whatsapp</a>
+            </li>
+        </ul> 
+
+                <a href="one.html" class="button">HOME</a>
+    </main>
+</body>
